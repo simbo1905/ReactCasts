@@ -12,8 +12,6 @@ app.get("*", (req, res) => {
       <!DOCTYPE html>
       <head>
         <title>Universal Reacl</title>
-        <link rel="stylesheet" href="/css/main.css">
-        <script src="/bundle.js" defer></script>
       </head>
 
       <body>
