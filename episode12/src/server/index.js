@@ -1,7 +1,7 @@
 import express from "express";
 import React from "react";
 import { renderToString } from "react-dom/server";
-import App from "../shared/App";
+import CommentBox from "../shared/CommentBox";
 
 const app = express();
 
@@ -15,7 +15,7 @@ app.get("*", (req, res) => {
       </head>
 
       <body>
-        <div id="root">${renderToString(<App />)}</div>
+        <div id="root">${renderToString(<CommentBox />)}</div>
       </body>
     </html>
   `);
