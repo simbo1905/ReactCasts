@@ -22272,48 +22272,12 @@ var App = function (_Component) {
     _createClass(App, [{
         key: "render",
         value: function render() {
-            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "App", __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 136
-                    },
-                    __self: this
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { dangerouslySetInnerHTML: createMarkup(), __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 136
                 },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "div",
-                    { className: "App-header", __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 137
-                        },
-                        __self: this
-                    },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: __WEBPACK_IMPORTED_MODULE_1__logo_svg___default.a, className: "App-logo", alt: "logo", __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 138
-                        },
-                        __self: this
-                    }),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "h2",
-                        {
-                            __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 139
-                            },
-                            __self: this
-                        },
-                        "Welcome to React in the Server"
-                    )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { dangerouslySetInnerHTML: createMarkup(), __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 141
-                    },
-                    __self: this
-                }),
-                ";"
-            );
+                __self: this
+            });
         }
     }]);
 
